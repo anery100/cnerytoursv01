@@ -1,12 +1,16 @@
-.navbar-lewagon {
+.navbar-cnery {
   justify-content: space-between;
   background: white;
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar-cnery .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-cnery .navbar-brand img {
+  width: 120px;
+}
+
+.navbar-cnery.selected-lang {
+  cursor: pointer;
 }

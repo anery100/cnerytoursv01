@@ -9,9 +9,11 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
   </head>
 
-  <body>
+  <body id="page-top" data-spy="scroll" data-target=".fixed-top">
     <%= render 'shared/navbar' %>
     <%= render 'shared/flashes' %>
 
