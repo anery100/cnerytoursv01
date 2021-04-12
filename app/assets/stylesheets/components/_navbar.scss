@@ -3,6 +3,7 @@
   background: white;
 }
 
+
 .navbar-cnery .navbar-collapse {
   flex-grow: 0;
 }
@@ -11,6 +12,107 @@
   width: 120px;
 }
 
-.navbar-cnery.selected-lang {
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+
+.container .lang-select {
+  width: 300px;
+  margin: 30px auto;
+}
+
+.lang-menu .selected-lang a {
+  text-decoration: none;
+}
+
+.lang-menu {
+  width: 90px;
+  text-align: right;
+  //font-weight: bold;
+  margin-top: 10px;
+  position: relative;
+  
+}
+
+.lang-menu .selected-lang {
+  display: flex;   
+  justify-content: space-between;
+  line-height: 1.5;
   cursor: pointer;
 }
+
+.lang-menu .selected-lang:before {
+  content: ' ';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url(https://www.countryflags.io/us/flat/24.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.lang-menu ul {
+  margin: 0;
+  padding: 0;
+  display: none;
+  background-color: #fff;
+  border: 1px solid #f8f8f8;
+  position: absolute;
+  top: 25px;
+  right: 0px;
+  width: 150px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+
+.lang-menu ul li {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang-menu ul li a {
+  text-decoration: none;
+  width: 1500px;
+  padding: 5px 10px;
+  display: block;
+}
+
+.lang-menu ul li:hover {
+  background-color: #f2f2f2;
+}
+
+.lang-menu ul li a:before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.option .pt:before {
+  background-image: url(https://www.countryflags.io/pt/flat/24.png);
+}
+
+.option .en:before {
+  background-image: url(https://www.countryflags.io/us/flat/24.png);
+}
+.option .fr:before {
+  background-image: url(https://www.countryflags.io/fr/flat/24.png);
+}
+
+.option .es:before {
+  background-image: url(https://www.countryflags.io/es/flat/24.png);
+}
+
+.lang-menu:hover ul {
+  display: block;
+}
+
+

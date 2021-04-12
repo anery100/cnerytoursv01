@@ -1,0 +1,20 @@
+pt:
+  hello: "Bem-Vindo"
+#Menu
+  Home: "INÍCIO"
+  Tours: "TOURS"
+  Services: "SERVIÇOS"
+  About: "SOBRE NÓS"
+  Contact: "CONTATOS"
+
+  language: " Português"
+  flag: <span class="flag-icon flag-icon-pt">
+  language1: " Inglês"
+  href1: <a class="dropdown-item", href="en" >
+  flag1: <span class="flag-icon flag-icon-us">
+  language2: " Francês"
+  href2: <a class="dropdown-item", href="fr" >
+  flag2: <span class="flag-icon flag-icon-fr">
+  language3: " Espanhol"
+  href3: <a class="dropdown-item", href="es" >
+  flag3: <span class="flag-icon flag-icon-es">
