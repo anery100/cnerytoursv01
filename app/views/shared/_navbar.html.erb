@@ -54,6 +54,35 @@
           </div>
         </li>
       <% else %>
+        <li class="nav-item ">
+  					<a class="nav-link js-scroll-trigger" href="#home" ><%=t('Menu.Home')%></a>
+        </li>
+        <li class="nav-item ">
+  					<a class="nav-link js-scroll-trigger" href="#tours"><%=t('Menu.Tours')%></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link js-scroll-trigger" href="#services"><%=t('Menu.Services')%></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link js-scroll-trigger" href="#about"><%=t('Menu.About')%></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link js-scroll-trigger" href="#contact"><%=t('Menu.Contact')%></a>
+        </li>
+         
+
+        <li class="nav-item dropdown" id="Nav2">
+            <a class="nav-link dropdown-toggle" href="#" role="button" 
+            id="dropdown09"  data-toggle="dropdown"  style="width: 150px;" >
+            <%= raw t('Menu.flag')%></span><%=t('Menu.language')%></a>
+            <div class="dropdown-menu" aria-labelledby="dropdown09" id="aaa" hover: {display: block} data-turbolinks="false">
+                <%= raw t('Menu.href1')%><%= raw t('Menu.flag1')%></span ><%=t('Menu.language1') %></a>
+                <%= raw t('Menu.href2')%><%= raw t('Menu.flag2')%></span><%=t('Menu.language2')%></a>
+                <%= raw t('Menu.href3')%><%= raw t('Menu.flag3')%></span><%=t('Menu.language3')%></a>
+            </div>
+        </li>
+
+        
         <li class="nav-item">
           <%= link_to "Login", new_user_session_path, class: "nav-link" %>
         </li>
