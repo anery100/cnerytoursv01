@@ -1,21 +1,32 @@
 fr:
+  
   hello: "Bien Venu"
 
-#Menu:
-  Home: "DÉBUT"
-  Tours: "TOURS"
-  Services: "SERVICES"
-  About: "À PROPOS DE NOUS"
-  Contact: "CONTACTS"
+  Menu:
+    Home: "DÉBUT"
+    Tours: "TOURS"
+    Services: "SERVICES"
+    About: "À PROPOS DE NOUS"
+    Contact: "CONTACTS"
 
-  language: " Français"
-  flag: <span class="flag-icon flag-icon-fr">
-  language1: " Anglais"
-  href1: <a class="dropdown-item", href="en" >
-  flag1: <span class="flag-icon flag-icon-us">
-  language2: " Portugais"
-  href2: <a class="dropdown-item", href="pt" >
-  flag2: <span class="flag-icon flag-icon-pt">
-  language3: " Espanol"
-  href3: <a class="dropdown-item", href="es" >
-  flag3: <span class="flag-icon flag-icon-es">
+    language: " Français"
+    flag: <span class="flag-icon flag-icon-fr">
+    language1: " Anglais"
+    href1: <a class="dropdown-item", href="en" >
+    flag1: <span class="flag-icon flag-icon-us">
+    language2: " Portugais"
+    href2: <a class="dropdown-item", href="pt" >
+    flag2: <span class="flag-icon flag-icon-pt">
+    language3: " Espanol"
+    href3: <a class="dropdown-item", href="es" >
+    flag3: <span class="flag-icon flag-icon-es">
+
+  Services:
+    title-1: "Van Tours"
+    text-1: "La camionnette est le meilleur moyen de visiter les environs de Lisbonne. Notre fourgonnette est très confortable avec climatisation indépendante, toit panoramique, sièges en cuir et porte automatique. Laissez nos guides vous montrer les meilleurs endroits de chaque lieu et raconter vous les meilleures histoires "
+    title-2: "Tuk Tuk Tours"
+    text-2: "Tuk Tuk est le meilleur moyen de visiter la partie historique de Lisbonne. Il s'agit d'un véhicule 100% électrique. Parce qu'il est complètement ouvert, vous pouvez prendre vos photos avec une qualité maximale pendant que nous voyageons. Laissez nos guides vous montrer le meilleur parties de la ville et vous raconter les meilleures histoires "
+    title-3: "Visites régulières"
+    text-3: "Choisissez l'une de nos visites régulières et rejoignez un groupe pour visiter les meilleurs endroits autour de Lisbonne. Nos visites sont faites pour vous montrer les parties les plus importantes d'une certaine région. Vous ne perdez pas de temps dans les files d'attente, nos guides vous guidera à lancer les monuments et vous sèmera de manière efficace les meilleures parties. Vous goûterez nos saveurs et nos boissons et vous découvrirez nos habitudes, notre culture et notre histoire. "
+    title-4: "Visites privées"
+    text-4: "Dans nos visites privées, vous pouvez tout choisir à votre goût personnel. Nous vous conseillerons et nous vous proposerons les choses que vous pouvez voir et faire. Nous vous montrerons les parties les plus importantes sans perdre de temps dans les files d'attente , nous vous guiderons à travers les monuments et vous montrerons de manière efficace les meilleures parties. Vous goûterez nos saveurs et nos boissons et vous découvrirez nos habitudes, notre culture et notre histoire. "

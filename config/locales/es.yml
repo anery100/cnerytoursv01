@@ -1,21 +1,33 @@
 es:
+  
   hello: "BIENVENIDOS"
 
-#Menu:
-  Home: "INICIO"
-  Tours: "TOURS"
-  Services: "SERVICIOS"
-  About: "NOSOTROS"
-  Contact: "CONTACTOS"
+  Menu:
+    Home: "INICIO"
+    Tours: "TOURS"
+    Services: "SERVICIOS"
+    About: "NOSOTROS"
+    Contact: "CONTACTOS"
 
-  language: " Espanhol"
-  flag: <span class="flag-icon flag-icon-es">
-  language1: " Inglés"
-  href1: <a class="dropdown-item", href="en" >
-  flag1: <span class="flag-icon flag-icon-us">
-  language2: " Portugués"
-  href2: <a class="dropdown-item", href="pt" >
-  flag2: <span class="flag-icon flag-icon-pt">
-  language3: " Francés"
-  href3: <a class="dropdown-item", href="fr" >
-  flag3: <span class="flag-icon flag-icon-fr">
+    language: " Espanhol"
+    flag: <span class="flag-icon flag-icon-es">
+    language1: " Inglés"
+    href1: <a class="dropdown-item", href="en" >
+    flag1: <span class="flag-icon flag-icon-us">
+    language2: " Portugués"
+    href2: <a class="dropdown-item", href="pt" >
+    flag2: <span class="flag-icon flag-icon-pt">
+    language3: " Francés"
+    href3: <a class="dropdown-item", href="fr" >
+    flag3: <span class="flag-icon flag-icon-fr">
+
+  Services:
+    title-1: "Viajes en furgoneta"
+    text-1: "La camioneta es la mejor manera de visitar los alrededores de Lisboa. Nuestra camioneta es muy cómoda con aire acondicionado independiente, techo panorámico, asientos de cuero y puerta automática. Deje que nuestros guías le muestren las mejores partes de cada lugar y cuéntele ustedes las mejores historias "
+    title-2: "Excursiones en Tuk Tuk"
+    text-2: "Tuk Tuk es la mejor manera de visitar la parte histórica de Lisboa. Este es un vehículo 100% eléctrico. Debido a que está completamente abierto, puedes tomar tus fotos con la máxima calidad mientras viajamos. Deja que nuestros guías te muestren lo mejor partes de la ciudad y contarte las mejores historias "
+    title-3: "Visitas regulares"
+    text-3: "Elija uno de nuestros recorridos regulares y únase a un grupo para visitar los mejores lugares de Lisboa. Nuestros recorridos están hechos para mostrarle las partes más importantes de una región determinada. No pierde tiempo en las colas, nuestros guías te guiará arrojando los monumentos y te sembrará de manera eficiente las mejores partes. Probarás nuestros sabores y bebidas y aprenderás sobre nuestros hábitos, cultura e historia "
+    title-4: "Visitas Privadas"
+    text-4: "En nuestros Tours Privados puedes elegir todo a tu gusto personal. Te asesoraremos y te propondremos las cosas que puedes ver y hacer. Te mostraremos las partes más importantes sin perder tiempo en colas , te guiaremos a tirar los monumentos y te mostraremos de manera eficiente las mejores partes. Probarás nuestros sabores y bebidas y aprenderás sobre nuestros hábitos, cultura e historia "
+    

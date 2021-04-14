@@ -14,10 +14,12 @@
     <link href="fm.selector.jquery.css" rel="stylesheet"/>
   </head>
 
-  <body id="page-top" data-spy="scroll" data-target=".fixed-top">
+  <body data-spy="scroll" data-target=".fixed-top">
     <%= render 'shared/navbar' %>
+    <%= render 'shared/carousel' %>
+    <%= render 'shared/services' %>
     <%= render 'shared/flashes' %>
-
+   
     <%= yield %>
   </body>
 </html>

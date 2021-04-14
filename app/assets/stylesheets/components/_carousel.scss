@@ -1,0 +1,33 @@
+body{
+  margin-top: 0px;
+}
+
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+
+.carousel-item {
+  transition-duration: 1s;
+  transition-delay: 0s;
+  
+  
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  /*width: 0px;
+  height: 0px;
+  border-radius: 100%;
+  border-width: 0px;
+  background-color: #fc450d;
+  top: calc(50% - 15px);
+  opacity: 1; */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  //width: 100px;
+  //height: 100px;
+}

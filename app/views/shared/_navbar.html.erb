@@ -3,7 +3,8 @@
     <%= image_tag "CNeryToursLogo.png", alt: "CNery Tours"%>
     <% end %>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -13,32 +14,30 @@
     <ul class="navbar-nav mr-auto">
       <% if user_signed_in? %>
         <li class="nav-item ">
-  					<a class="nav-link js-scroll-trigger" href="#home" ><%=t('Home')%></a>
+  					<a class="nav-link js-scroll-trigger" href="#home" ><%=t('Menu.Home')%></a>
         </li>
         <li class="nav-item ">
-  					<a class="nav-link js-scroll-trigger" href="#tours"><%=t('Tours')%></a>
+  					<a class="nav-link js-scroll-trigger" href="#tours"><%=t('Menu.Tours')%></a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link js-scroll-trigger" href="#services"><%=t('Services')%></a>
+          <a class="nav-link js-scroll-trigger" href="#services"><%=t('Menu.Services')%></a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link js-scroll-trigger" href="#about"><%=t('About')%></a>
+          <a class="nav-link js-scroll-trigger" href="#about"><%=t('Menu.About')%></a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link js-scroll-trigger" href="#contact"><%=t('Contact')%></a>
+          <a class="nav-link js-scroll-trigger" href="#contact"><%=t('Menu.Contact')%></a>
         </li>
          
-
-        
 
         <li class="nav-item dropdown" id="Nav2">
             <a class="nav-link dropdown-toggle" href="#" role="button" 
             id="dropdown09"  data-toggle="dropdown"  style="width: 150px;" >
-            <%= raw t('flag')%></span><%=t('language')%></a>
-            <div class="dropdown-menu" aria-labelledby="dropdown09" id="aaa" hover: {display: block}>
-                <%= raw t('href1')%><%= raw t('flag1')%></span><%=t('language1')%></a>
-                <%= raw t('href2')%><%= raw t('flag2')%></span><%=t('language2')%></a>
-                <%= raw t('href3')%><%= raw t('flag3')%></span><%=t('language3')%></a>
+            <%= raw t('Menu.flag')%></span><%=t('Menu.language')%></a>
+            <div class="dropdown-menu" aria-labelledby="dropdown09" id="aaa" hover: {display: block} data-turbolinks="false">
+                <%= raw t('Menu.href1')%><%= raw t('Menu.flag1')%></span ><%=t('Menu.language1') %></a>
+                <%= raw t('Menu.href2')%><%= raw t('Menu.flag2')%></span><%=t('Menu.language2')%></a>
+                <%= raw t('Menu.href3')%><%= raw t('Menu.flag3')%></span><%=t('Menu.language3')%></a>
             </div>
         </li>
 

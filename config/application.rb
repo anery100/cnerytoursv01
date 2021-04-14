@@ -24,5 +24,6 @@ module Cnerytoursv01
     config.i18n.available_locales = [:en, :pt, :fr, :es]
     config.i18n.default_locale = :en
 
+    
   end
 end

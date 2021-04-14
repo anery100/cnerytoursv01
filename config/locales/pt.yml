@@ -1,20 +1,32 @@
 pt:
+    
   hello: "Bem-Vindo"
-#Menu
-  Home: "INÍCIO"
-  Tours: "TOURS"
-  Services: "SERVIÇOS"
-  About: "SOBRE NÓS"
-  Contact: "CONTATOS"
 
-  language: " Português"
-  flag: <span class="flag-icon flag-icon-pt">
-  language1: " Inglês"
-  href1: <a class="dropdown-item", href="en" >
-  flag1: <span class="flag-icon flag-icon-us">
-  language2: " Francês"
-  href2: <a class="dropdown-item", href="fr" >
-  flag2: <span class="flag-icon flag-icon-fr">
-  language3: " Espanhol"
-  href3: <a class="dropdown-item", href="es" >
-  flag3: <span class="flag-icon flag-icon-es">
+  Menu:
+    Home: "INÍCIO"
+    Tours: "TOURS"
+    Services: "SERVIÇOS"
+    About: "SOBRE NÓS"
+    Contact: "CONTATOS"
+
+    language: " Português"
+    flag: <span class="flag-icon flag-icon-pt">
+    language1: " Inglês"
+    href1: <a class="dropdown-item", href="en" >
+    flag1: <span class="flag-icon flag-icon-us">
+    language2: " Francês"
+    href2: <a class="dropdown-item", href="fr" >
+    flag2: <span class="flag-icon flag-icon-fr">
+    language3: " Espanhol"
+    href3: <a class="dropdown-item", href="es" >
+    flag3: <span class="flag-icon flag-icon-es">
+
+  Services:
+    title-1: "Passeios de Van"
+    text-1: "Van é a melhor maneira de visitar os arredores de Lisboa. Nossa Van é muito confortável com ar condicionado independente, teto panorâmico, bancos de couro e porta automática. Deixe nossos guias mostrarem-lhe o melhor de cada lugar, e contar você as melhores histórias."
+    title-2: "Passeios de Tuk"
+    text-2: "O Tuk Tuk é a melhor forma de visitar a parte histórica de Lisboa. Este é um veículo 100% eléctrico. Por ser totalmente aberto pode tirar as suas fotos com a máxima qualidade durante a viagem. Deixe os nossos guias mostrarem-lhe o melhor partes da cidade e contar as melhores histórias."
+    title-3: "Passeios regulares"
+    text-3: "Escolha um dos nossos passeios regulares e junte-se a um grupo para visitar os melhores locais de Lisboa. Os nossos passeios são feitos para lhe mostrar o que há de mais importante numa determinada região. Não perde tempo nas filas, os nossos guias irá guiá-lo a lançar os monumentos e semear-lhe de forma eficiente as melhores peças. Irá experimentar os nossos sabores e bebidas e conhecerá os nossos hábitos, cultura e história."
+    title-4: "Passeios Privados"
+    text-4: "Em nossos Tours Privados você pode escolher tudo a seu gosto. Nós o aconselharemos e lhe proporemos o que você pode ver e fazer. Mostraremos o que há de mais importante sem perder tempo em filas , iremos guiá-lo pelos monumentos e mostrar-lhe de forma eficiente as melhores peças. Poderá experimentar os nossos sabores e bebidas e conhecerá os nossos hábitos, cultura e história."
