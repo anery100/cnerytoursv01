@@ -77,13 +77,13 @@
             <%= raw t('Menu.flag')%></span><%=t('Menu.language')%></a>
             <div class="dropdown-menu" aria-labelledby="dropdown09" id="aaa" hover: {display: block} data-turbolinks="false">
                 
-                <%= link_to  url_for(:locale => t('Menu.href1')), :class => "dropdown-item" do %>
+                <%= link_to  home_index_path(:locale => t('Menu.href1')), :class => "dropdown-item" do %>
                   <%= raw t('Menu.flag1')%></span ><%=t('Menu.language1')%></a>
                 <%end%>
-                <%= link_to  url_for(:locale => t('Menu.href2')), :class => "dropdown-item" do %>
+                <%= link_to  home_index_path(:locale => t('Menu.href2')), :class => "dropdown-item" do %>
                   <%= raw t('Menu.flag2')%></span ><%=t('Menu.language2')%></a>
                 <%end%>
-                <%= link_to  url_for(:locale => t('Menu.href3')), :class => "dropdown-item" do %>
+                <%= link_to  home_index_path(:locale => t('Menu.href3')), :class => "dropdown-item" do %>
                   <%= raw t('Menu.flag3')%></span ><%=t('Menu.language3')%></a>
                 <%end%>
 
