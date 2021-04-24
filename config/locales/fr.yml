@@ -1,5 +1,6 @@
 fr:
   
+  
   hello: "Bien Venu"
 
   Menu:
@@ -12,13 +13,13 @@ fr:
     language: " Français"
     flag: <span class="flag-icon flag-icon-fr">
     language1: " Anglais"
-    href1: <a class="dropdown-item", href="en" >
+    href1: 'en'
     flag1: <span class="flag-icon flag-icon-us">
     language2: " Portugais"
-    href2: <a class="dropdown-item", href="pt" >
+    href2: 'pt'
     flag2: <span class="flag-icon flag-icon-pt">
     language3: " Espanol"
-    href3: <a class="dropdown-item", href="es" >
+    href3: 'es'
     flag3: <span class="flag-icon flag-icon-es">
 
   Services:
@@ -38,3 +39,11 @@ fr:
     text3: "Nous proposons plusieurs options de transport: Voiture, Van, Tuk Tuk et Mini Bus. Pour chaque type de circuit et en fonction de la taille du groupe, le moyen de transport le plus approprié sera utilisé, avec toujours la possibilité de choisir. "
     text4: "Vous pouvez choisir un circuit régulier dans lequel vous serez intégré dans un groupe ou vous pouvez choisir un circuit privé où l'itinéraire sera utilisé à votre goût personnel. Dans les circuits privés, nous allons du nord au sud de notre pays."
     text5: "Nous avons réussi à obtenir une note d'excellence en 2019, laissant de nombreux clients calculer. Nous espérons pouvoir compter sur vous pour continuer à satisfaire de nombreux nouveaux clients à l'avenir. Venez découvrir le Portugal avec nous!"
+    
+  Contact:
+    title: "Contactez-nous"
+    subtitle: "connectez-vous avec nous"
+    input_name: "Entrez votre nom complet"
+    input_email: "Entrez votre adresse e-mail"
+    input_number: "Entrez votre numéro de contact"
+    input_message: "Entrez votre message"

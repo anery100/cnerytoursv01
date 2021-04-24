@@ -6,14 +6,20 @@ body {
   background-color: purple;
 }
 
-.Services-Header {
+.title {
+  height: 50px;
+  font-family:$header-font;
+  font-size: $header-font-size;
+  color:  $header-font-color;
+  font-weight: $header-font-weight;
+  text-transform: $header-text-transform;
 }
 
 h1.mb-4{
-  font-size: 30px;
-  color: black;
-  font-weight: bold;
-  text-align: center;
+  font-size: $header-font-size;
+  color:crimson;
+  font-weight: $header-font-weight;
+  
   text-transform: uppercase ;
 }
 

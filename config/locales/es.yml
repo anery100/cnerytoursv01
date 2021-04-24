@@ -1,5 +1,6 @@
 es:
   
+  
   hello: "BIENVENIDOS"
 
   Menu:
@@ -12,13 +13,13 @@ es:
     language: " Espanhol"
     flag: <span class="flag-icon flag-icon-es">
     language1: " Inglés"
-    href1: <a class="dropdown-item", href="en" >
+    href1: 'en'
     flag1: <span class="flag-icon flag-icon-us">
     language2: " Portugués"
-    href2: <a class="dropdown-item", href="pt" >
+    href2: 'pt'
     flag2: <span class="flag-icon flag-icon-pt">
     language3: " Francés"
-    href3: <a class="dropdown-item", href="fr" >
+    href3: 'fr'
     flag3: <span class="flag-icon flag-icon-fr">
 
   Services:
@@ -39,3 +40,10 @@ es:
     text4: "Puedes elegir un tour regular en el que estarás integrado en un grupo o puedes elegir un tour privado donde el itinerario será utilizado a tu gusto personal. En tours privados vamos de norte a sur de nuestro país"
     text5: "Logramos alcanzar una calificación de excelencia en 2019, permitiendo que muchos clientes calculen. Esperamos poder contar con usted para continuar satisfaciendo a muchos nuevos clientes en el futuro. ¡Venga a descubrir Portugal con nosotros!"
     
+  Contact:
+    title: "Contáctenos"
+    subtitle: "conéctese con nosotros"
+    input_name: "Ingrese su nombre completo"
+    input_email: "Ingrese su correo electrónico"
+    input_number: "Ingrese su número de contacto"
+    input_message: "Ingrese su mensaje"

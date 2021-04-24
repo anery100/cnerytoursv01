@@ -14,7 +14,7 @@
     <ul class="navbar-nav mr-auto">
       <% if user_signed_in? %>
         <li class="nav-item ">
-  					<a class="nav-link js-scroll-trigger" href="#home" ><%=t('Menu.Home')%></a>
+  					<a class="nav-link js-scroll-trigger" href="/#home" ><%=t('Menu.Home')%></a>
         </li>
         <li class="nav-item ">
   					<a class="nav-link js-scroll-trigger" href="#tours"><%=t('Menu.Tours')%></a>
@@ -55,19 +55,19 @@
         </li>
       <% else %>
         <li class="nav-item ">
-  					<a class="nav-link js-scroll-trigger" href="#home" ><%=t('Menu.Home')%></a>
+            <%= link_to t('Menu.Home'), home_index_path( anchor: 'home'), class: "nav-link js-scroll-trigger" %>
         </li>
         <li class="nav-item ">
-  					<a class="nav-link js-scroll-trigger" href="#tours"><%=t('Menu.Tours')%></a>
+          <%= link_to t('Menu.Tours'), home_index_path(anchor: 'tours'), class: "nav-link js-scroll-trigger" %>
         </li>
         <li class="nav-item ">
-          <a class="nav-link js-scroll-trigger" href="#services"><%=t('Menu.Services')%></a>
+          <%= link_to t('Menu.Services'), home_index_path(anchor: 'services'), class: "nav-link js-scroll-trigger" %>
         </li>
         <li class="nav-item ">
-          <a class="nav-link js-scroll-trigger" href="#about"><%=t('Menu.About')%></a>
+          <%= link_to t('Menu.About'), home_index_path(anchor: 'about'), class: "nav-link js-scroll-trigger" %>
         </li>
         <li class="nav-item ">
-          <a class="nav-link js-scroll-trigger" href="#contact"><%=t('Menu.Contact')%></a>
+          <%= link_to t('Menu.Contact'), home_index_path(anchor: 'contact'), class: "nav-link js-scroll-trigger" %>
         </li>
          
 
@@ -76,9 +76,17 @@
             id="dropdown09"  data-toggle="dropdown"  style="width: 150px;" >
             <%= raw t('Menu.flag')%></span><%=t('Menu.language')%></a>
             <div class="dropdown-menu" aria-labelledby="dropdown09" id="aaa" hover: {display: block} data-turbolinks="false">
-                <%= raw t('Menu.href1')%><%= raw t('Menu.flag1')%></span ><%=t('Menu.language1') %></a>
-                <%= raw t('Menu.href2')%><%= raw t('Menu.flag2')%></span><%=t('Menu.language2')%></a>
-                <%= raw t('Menu.href3')%><%= raw t('Menu.flag3')%></span><%=t('Menu.language3')%></a>
+                
+                <%= link_to  url_for(:locale => t('Menu.href1')), :class => "dropdown-item" do %>
+                  <%= raw t('Menu.flag1')%></span ><%=t('Menu.language1')%></a>
+                <%end%>
+                <%= link_to  url_for(:locale => t('Menu.href2')), :class => "dropdown-item" do %>
+                  <%= raw t('Menu.flag2')%></span ><%=t('Menu.language2')%></a>
+                <%end%>
+                <%= link_to  url_for(:locale => t('Menu.href3')), :class => "dropdown-item" do %>
+                  <%= raw t('Menu.flag3')%></span ><%=t('Menu.language3')%></a>
+                <%end%>
+
             </div>
         </li>
 

@@ -1,15 +1,27 @@
-.container img {
+img {
   width: 150px;
 }
 
+#logo {
+  padding: 30px ;
+}
 
-.container h1 {
+.title {
+  height: 50px;
+  font-family:$header-font;
+  font-size: $header-font-size;
+  color: $header-font-color;
+  font-weight: $header-font-weight;
+  text-transform: $header-text-transform;
+}
+
+/*.container h1 {
   font-size: 30px;
   color: black;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase ;
-}
+}*/
 
 .container p {
   text-align: justify;

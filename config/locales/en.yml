@@ -1,5 +1,6 @@
 en: 
   
+
   hello: "Welcome"
 
   Menu:  
@@ -13,13 +14,13 @@ en:
     language: " English"
     flag: <span class="flag-icon flag-icon-us">
     language1: " Portuguese"
-    href1: <a class="dropdown-item", href="pt" >
+    href1: 'pt'
     flag1: <span class="flag-icon flag-icon-pt">
     language2: " French"
-    href2: <a class="dropdown-item", href="fr" >
+    href2: 'fr'
     flag2: <span class="flag-icon flag-icon-fr">
     language3: " Spanish"
-    href3: <a class="dropdown-item", href="es" >
+    href3: 'es'
     flag3: <span class="flag-icon flag-icon-es">
 
   Services:
@@ -31,7 +32,7 @@ en:
     text-3: "Choose one of our regular tours and join a group to visit the best places around Lisbon. Our tours are made to show you the most important parts of a certain region. You don't lose time in queues, our guides will guide you throw the monuments and will sow you in an efficient way the best parts. You will try our flavors and drinks and you will learn about our habits, culture, and history."
     title-4: "Private Tours"
     text-4: "In our Private Tours you can choose everything to your personal taste. We will advise you and we will propose to you the things that you can see and do. We will show you the most important parts without losing time in queues, we will guide you throw the monuments and will show you in an efficient way the best parts. You will try our flavors and drinks and you will learn about our habits, culture, and history."
-  
+
   About:
     title: "About us"
     text1: "We are a local tourist entertainment operator, specializing in organizing tours in the Lisbon area for small groups. Our tours were designed to show you the best in Portugal in order to show you the most in an efficient, safe, enriching and comfortable way. "
@@ -39,3 +40,14 @@ en:
     text3: "We offer several transport options: Car, Van, Tuk Tuk and Mini Bus. For each type of tour and according to the size of the group, the most appropriate means of transport will be used, always having the option to choose."
     text4: "You can choose a regular tour in which you will be integrated into a group or you can choose a private tour where the itinerary will be used to your personal taste. In private tours we go from North to South of our country."
     text5: "We managed to achieve a rating of excellence in 2019, letting many customers calculate. We hope to be able to count on you to continue to satisfy many new customers in the future. Come and discover Portugal with us!"
+    
+  Contact:
+    title: "Contact Us"
+    subtitle: "get connected with us"
+    input_name: "Enter your Full Name"
+    input_email: "Enter your Email Address"
+    input_number: "Enter your Contact Number"
+    input_message: "Enter your Message"
+
+
+

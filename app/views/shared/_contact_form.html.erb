@@ -1,0 +1,64 @@
+<section id="contact" class="block contact-block" style="padding-top: 80px; margin-top: -10px;">
+  
+  <div class="title">
+    <%=t('Contact.title')%>
+    <h2><div class="subtitle"><%=t('Contact.subtitle')%></div></h2>
+	</div>
+
+  <%= form_for @contact, url: home_index_path, remote: true do |f| %>
+    <div class="row">
+
+      <div class="col-sm-4">
+        <div class="form-group">
+          <%= f.text_field  :name, required: true, class: "contact-form-text-area",
+            placeholder: t('Contact.input_name')%></br>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="form-group">
+          <%= f.text_field :email, required: true, class: "contact-form-text-area",
+            placeholder: t('Contact.input_email')%></br>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="form-group">
+          <%= f.text_field :contact, required: true, class: "contact-form-text-area",
+            placeholder: t('Contact.input_number')%></br>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="form-group">
+          <%= f.text_area :message, rows: 8, cols: 40, required: true, class: "contact-form-text-area",
+            placeholder: t('Contact.input_message') %></br>
+        </div>
+      </div>
+    </div>
+    <div class="btn-holder">
+      <%= f.submit 'Send Message', class: 'btn btn-primary' %>
+    </div>
+  <% end %>
+  <div class="col-md-6" id="flash-message">
+    <%= render 'shared/flash' %>
+  </div>
+
+  <div class="google-map">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38958.14907668316!2d-9.154197058454331!3d38.7319511127191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd193301e6b1d677%3A0x971868cd2a4f609a!2sSPR%20Tours%20-%20Tours%20%26%20Transfers%20in%20Lisbon%2C%20Sintra%2C%20Cascais%2C%20F%C3%A1tima!5e0!3m2!1spt-PT!2spt!4v1617967594673!5m2!1spt-PT!2spt"
+      allowfullscreen>
+    </iframe>
+	</div>
+				<div class="container-fluid">
+					<div class="contact-info">
+						<ul>
+							<li><i class="fas fa-envelope"></i> info@cnery.pt</li>
+							<li><i class="fas fa-phone"></i> +351 - 925-340-094</li>
+							<li><i class="fas fa-map-marker-alt"></i> Lisbon, Portugal</li>
+						</ul>
+					</div>
+				</div>
+
+</section>

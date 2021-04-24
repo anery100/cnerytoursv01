@@ -1,5 +1,6 @@
 pt:
-    
+
+   
   hello: "Bem-Vindo"
 
   Menu:
@@ -12,19 +13,19 @@ pt:
     language: " Português"
     flag: <span class="flag-icon flag-icon-pt">
     language1: " Inglês"
-    href1: <a class="dropdown-item", href="en" >
+    href1: 'en'
     flag1: <span class="flag-icon flag-icon-us">
     language2: " Francês"
-    href2: <a class="dropdown-item", href="fr" >
+    href2: 'fr'
     flag2: <span class="flag-icon flag-icon-fr">
     language3: " Espanhol"
-    href3: <a class="dropdown-item", href="es" >
+    href3: 'es'
     flag3: <span class="flag-icon flag-icon-es">
 
   Services:
     title-1: "Passeios de Van"
     text-1: "Van é a melhor maneira de visitar os arredores de Lisboa. Nossa Van é muito confortável com ar condicionado independente, teto panorâmico, bancos de couro e porta automática. Deixe nossos guias mostrarem-lhe o melhor de cada lugar, e contar você as melhores histórias."
-    title-2: "Passeios de Tuk"
+    title-2: "Passeios de Tuk Tuk"
     text-2: "O Tuk Tuk é a melhor forma de visitar a parte histórica de Lisboa. Este é um veículo 100% eléctrico. Por ser totalmente aberto pode tirar as suas fotos com a máxima qualidade durante a viagem. Deixe os nossos guias mostrarem-lhe o melhor partes da cidade e contar as melhores histórias."
     title-3: "Passeios regulares"
     text-3: "Escolha um dos nossos passeios regulares e junte-se a um grupo para visitar os melhores locais de Lisboa. Os nossos passeios são feitos para lhe mostrar o que há de mais importante numa determinada região. Não perde tempo nas filas, os nossos guias irá guiá-lo a lançar os monumentos e semear-lhe de forma eficiente as melhores peças. Irá experimentar os nossos sabores e bebidas e conhecerá os nossos hábitos, cultura e história."
@@ -38,3 +39,11 @@ pt:
     text3: "Disponibilizamos várias opções de transporte: Carro, Van, Tuk Tuk e Mini Bus. Para cada tipo de passeio e de acordo com a dimensão do grupo será usado o meio de transporte mais adequado havendo sempre a opção de escolha."
     text4: "Pode escolher por um tour regular em que será integrado num grupo ou pode selecionar por um tour privado onde o roteiro será usado ao seu gosto pessoal. Nos tours privados vamos de Norte a Sul do nosso Pais."
     text5: "Conseguimos atingir uma classificação de excelência em 2019, deixando muitos clientes calcular. Esperamos poder contar consigo para continuar a satisfazer muitos novos clientes no futuro. Venha descobrir Portugal connosco!"
+
+  Contact:
+    title: "Fale Conosco"
+    subtitle: "conecte-se conosco"
+    input_name: "Digite seu nome completo"
+    input_email: "Digite seu endereço de e-mail"
+    input_number: "Digite seu número de telefone"
+    input_message: "Digite a sua mensagem"
