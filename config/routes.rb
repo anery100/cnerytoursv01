@@ -4,7 +4,6 @@ Rails.application.routes.draw do
     mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
     devise_for :users
     resources :users
-    resources :contact, only: [:index, :new, :create]  
     resources :home, only: [:index, :new, :create]
 
     root to: 'home#index'
