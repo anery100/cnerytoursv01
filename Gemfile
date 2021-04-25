@@ -41,7 +41,7 @@ gem 'mail_form'
 gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 
 gem 'devise'
-
+gem 'turbolinks_render'
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 gem 'simple_form'
