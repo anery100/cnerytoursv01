@@ -35,9 +35,17 @@
             id="dropdown09"  data-toggle="dropdown"  style="width: 150px;" >
             <%= raw t('Menu.flag')%></span><%=t('Menu.language')%></a>
             <div class="dropdown-menu" aria-labelledby="dropdown09" id="aaa" hover: {display: block} data-turbolinks="false">
-                <%= raw t('Menu.href1')%><%= raw t('Menu.flag1')%></span ><%=t('Menu.language1') %></a>
-                <%= raw t('Menu.href2')%><%= raw t('Menu.flag2')%></span><%=t('Menu.language2')%></a>
-                <%= raw t('Menu.href3')%><%= raw t('Menu.flag3')%></span><%=t('Menu.language3')%></a>
+                
+                <%= link_to  home_index_path(:locale => t('Menu.href1')), :class => "dropdown-item" do %>
+                  <%= raw t('Menu.flag1')%></span ><%=t('Menu.language1')%></a>
+                <%end%>
+                <%= link_to  home_index_path(:locale => t('Menu.href2')), :class => "dropdown-item" do %>
+                  <%= raw t('Menu.flag2')%></span ><%=t('Menu.language2')%></a>
+                <%end%>
+                <%= link_to  home_index_path(:locale => t('Menu.href3')), :class => "dropdown-item" do %>
+                  <%= raw t('Menu.flag3')%></span ><%=t('Menu.language3')%></a>
+                <%end%>
+            
             </div>
         </li>
 
